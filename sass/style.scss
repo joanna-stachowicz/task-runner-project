@@ -1,0 +1,16 @@
+/* Global */
+
+$font-brand: 'Meie Script', cursive;
+$font-header: 'Rokkitt', serif;
+$font-text: 'Ubuntu', sans-serif;
+
+$color-brand: #FFD700;
+$color-text: #2f3640;
+$color-light: #fff;
+$color-dark: #000;
+
+body {
+    font-family: $font-text;
+    color: $color-text;
+    text-align: center;
+}
