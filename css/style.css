@@ -239,9 +239,26 @@ section, .row {
   font-style: italic;
 }
 
+.footer-inner li {
+  font-size: 0;
+  display: inline;
+  padding-right: 12px;
+}
+
 .footer-inner i {
+  font-size: 24px;
   color: #fff;
+  background-color: #000;
   border-radius: 50%;
   border: 1px solid #000;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  transition: all 1s;
+}
+
+.footer-inner i:hover {
+  transform: scale(1.2);
 }
 /*# sourceMappingURL=style.css.map */

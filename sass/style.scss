@@ -234,8 +234,24 @@ section, .row {
     font-style: italic;
 }
 
+.footer-inner li {
+    font-size: 0;
+    display: inline;
+    padding-right: 12px;
+}
+
 .footer-inner i {
+    font-size: 24px;
     color: $color-light;
+    background-color: $color-dark;
     border-radius: 50%;
     border: 1px solid $color-dark;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: $transition;
+    &:hover {
+        transform: scale(1.2);
+    }
 }
