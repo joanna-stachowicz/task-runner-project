@@ -227,3 +227,15 @@ section, .row {
     font-style: italic;
     margin-top: -22px;
 }
+
+/* Footer */
+
+.footer-inner p {
+    font-style: italic;
+}
+
+.footer-inner i {
+    color: $color-light;
+    border-radius: 50%;
+    border: 1px solid $color-dark;
+}

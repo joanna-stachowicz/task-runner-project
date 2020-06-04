@@ -233,4 +233,15 @@ section, .row {
   font-style: italic;
   margin-top: -22px;
 }
+
+/* Footer */
+.footer-inner p {
+  font-style: italic;
+}
+
+.footer-inner i {
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
 /*# sourceMappingURL=style.css.map */
