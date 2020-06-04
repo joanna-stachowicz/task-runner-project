@@ -1,0 +1,119 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  color: #707070;
+  text-align: center;
+}
+
+/* Splash */
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url(https://i.ibb.co/kGcCd2v/round-gold-color-chronograph-watch-with-black-strap-at-7-36-908629.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.splash::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #000;
+  opacity: 1;
+  z-index: -1;
+}
+
+.splash-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Rokkitt", serif;
+}
+
+.header-title {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.header-subtitle {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #DAA520;
+  border-radius: 2px;
+  background: #DAA520;
+  min-width: 180px;
+  padding: 14px;
+  background-image: linear-gradient(90deg, #fff, transparent 50%);
+  background-size: 600%;
+  background-position: 100% 0;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  color: #DAA520;
+}
+
+/* Navigation */
+.brand p {
+  font-family: "Meie Script", cursive;
+  color: #DAA520;
+  font-size: 26px;
+}
+
+.list ul {
+  list-style-type: none;
+  margin: 32px;
+  -webkit-padding-start: 168px;
+          padding-inline-start: 168px;
+}
+
+.list li {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 40px;
+}
+
+.list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Rokkitt", serif;
+}
+
+.list a:hover {
+  color: #707070;
+}
+
+/* Services */
+.section-title {
+  font-family: "Rokkitt", serif;
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: -12px;
+}
+
+.services p {
+  font-style: italic;
+}
+/*# sourceMappingURL=style.css.map */
