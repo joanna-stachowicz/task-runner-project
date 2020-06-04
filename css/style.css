@@ -143,6 +143,7 @@ section, .row {
 .services-inner i:hover {
   color: #fff;
   background-color: #DAA520;
+  transform: scale(1.2);
 }
 
 .services-title, .portfolio-title {

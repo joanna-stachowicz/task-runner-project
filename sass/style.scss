@@ -153,6 +153,7 @@ section, .row {
     &:hover {
         color: $color-light;
         background-color: $color-brand;
+        transform: scale(1.2);
     }
 }
 
