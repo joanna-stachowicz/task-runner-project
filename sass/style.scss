@@ -19,6 +19,10 @@ body {
     text-align: center;
 }
 
+section, .row {
+    padding: 60px 0;
+}
+
 /* Splash */
 
 .splash {
@@ -86,6 +90,10 @@ body {
 
 /* Navigation */
 
+.navigation {
+    padding: 0;
+}
+
 .brand p {
     font-family: $font-brand;
     color: $color-brand;
@@ -94,7 +102,7 @@ body {
 
 .list ul {
     list-style-type: none; 
-    margin: 32px;
+    margin: 34px;
     padding-inline-start: 168px;
 }
 
@@ -127,4 +135,29 @@ body {
 
 .services p {
     font-style: italic;
+}
+
+.services-inner {
+    padding: 0 48px;
+}
+
+.services-inner i {
+    color: $color-brand;
+    border: 2px solid $color-brand;
+    border-radius: 50%;
+    font-size: 32px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.services-title {
+    font-family: $font-header;
+    font-weight: 800;
+    font-size: 18px;
+    color: $color-dark;
+}
+
+.services-inner p {
+    font-size: 12px;
 }

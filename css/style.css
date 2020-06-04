@@ -6,6 +6,10 @@ body {
   text-align: center;
 }
 
+section, .row {
+  padding: 60px 0;
+}
+
 /* Splash */
 .splash {
   height: 100vh;
@@ -73,6 +77,10 @@ body {
 }
 
 /* Navigation */
+.navigation {
+  padding: 0;
+}
+
 .brand p {
   font-family: "Meie Script", cursive;
   color: #DAA520;
@@ -81,7 +89,7 @@ body {
 
 .list ul {
   list-style-type: none;
-  margin: 32px;
+  margin: 34px;
   -webkit-padding-start: 168px;
           padding-inline-start: 168px;
 }
@@ -115,5 +123,30 @@ body {
 
 .services p {
   font-style: italic;
+}
+
+.services-inner {
+  padding: 0 48px;
+}
+
+.services-inner i {
+  color: #DAA520;
+  border: 2px solid #DAA520;
+  border-radius: 50%;
+  font-size: 32px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.services-title {
+  font-family: "Rokkitt", serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: #000;
+}
+
+.services-inner p {
+  font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */
