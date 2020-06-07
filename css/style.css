@@ -6,7 +6,8 @@ body {
   text-align: center;
 }
 
-section, .row {
+section,
+.row {
   padding: 60px 0;
 }
 
@@ -21,7 +22,7 @@ section, .row {
   color: #fff;
 }
 
-.splash::after {
+.dim {
   position: absolute;
   content: "";
   width: 100%;
@@ -29,8 +30,7 @@ section, .row {
   top: 0;
   left: 0;
   background-color: #000;
-  opacity: 0.4;
-  z-index: -1;
+  opacity: 0.5;
 }
 
 .splash-inner {
@@ -45,12 +45,13 @@ section, .row {
   font-family: "Cormorant Garamond", serif;
   font-weight: 500;
   font-style: italic;
+  font-size: 2em;
 }
 
 .header-subtitle {
   text-transform: uppercase;
   font-weight: 800;
-  font-size: 60px;
+  font-size: 3.75em;
 }
 
 .btn {
@@ -60,9 +61,9 @@ section, .row {
   text-decoration: none;
   color: #fff;
   cursor: pointer;
-  border: 1px solid #DAA520;
+  border: 1px solid #daa520;
   border-radius: 2px;
-  background: #DAA520;
+  background: #daa520;
   min-width: 180px;
   padding: 14px;
   background-image: linear-gradient(90deg, #fff, transparent 50%);
@@ -73,7 +74,7 @@ section, .row {
 
 .btn:hover {
   background-position: 0 100%;
-  color: #DAA520;
+  color: #daa520;
 }
 
 /* Navigation */
@@ -83,7 +84,7 @@ section, .row {
 
 .brand p {
   font-family: "Meie Script", cursive;
-  color: #DAA520;
+  color: #daa520;
   font-size: 26px;
 }
 
@@ -130,8 +131,8 @@ section, .row {
 }
 
 .services-inner i {
-  color: #DAA520;
-  border: 2px solid #DAA520;
+  color: #daa520;
+  border: 2px solid #daa520;
   border-radius: 50%;
   font-size: 32px;
   width: 60px;
@@ -142,11 +143,12 @@ section, .row {
 
 .services-inner i:hover {
   color: #fff;
-  background-color: #DAA520;
+  background-color: #daa520;
   transform: scale(1.2);
 }
 
-.services-title, .portfolio-title {
+.services-title,
+.portfolio-title {
   font-family: "Rokkitt", serif;
   font-weight: 800;
   font-size: 24px;
@@ -173,7 +175,7 @@ section, .row {
 
 .photos::before {
   position: absolute;
-  content: '';
+  content: "";
   background-color: #000;
   top: 0;
   left: 0;
@@ -198,8 +200,8 @@ section, .row {
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
-  color: #D4AF37;
-  border: 2px solid #D4AF37;
+  color: #d4af37;
+  border: 2px solid #d4af37;
   padding: 0 6px;
   display: none;
   z-index: 1;
@@ -227,6 +229,11 @@ section, .row {
 
 .photo6 {
   background-image: url(https://i.ibb.co/tzxf1dp/black-vintage-typewriter-163084.jpg);
+}
+
+.portfolio-description {
+  background-color: #fff;
+  padding: 19.920px 0;
 }
 
 .portfolio-description p {
@@ -260,5 +267,11 @@ section, .row {
 
 .footer-inner i:hover {
   transform: scale(1.2);
+}
+
+@media (max-width: 991px) {
+  body {
+    font-size: 80%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
