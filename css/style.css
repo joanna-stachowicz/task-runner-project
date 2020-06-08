@@ -274,4 +274,11 @@ section,
     font-size: 80%;
   }
 }
+
+@media (max-width: 390px) {
+  .list ul {
+    -webkit-padding-start: 48px;
+            padding-inline-start: 48px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
